@@ -1,9 +1,9 @@
 === Expire User Passwords ===
 Contributors:      fjarrett, millermedianow, millermediadev
-Tags:              admin, login, membership, passwords, profile, security, users
+Tags:              passwords, security, login, users, membership
 Requires at least: 4.0
 Tested up to:      6.9.1
-Stable tag:        1.3.7
+Stable tag:        1.3.9
 Requires PHP:      8.1
 License:           GPL-2.0
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,8 +25,19 @@ In the plugin settings you can set the maximum number of days users are allowed 
 **Languages supported:**
 
 * English
-* Czech
-* Español
+* Chinese Simplified (简体中文)
+* Czech (Čeština)
+* Dutch (Nederlands)
+* French (Français)
+* German (Deutsch)
+* Italian (Italiano)
+* Japanese (日本語)
+* Polish (Polski)
+* Portuguese - Brazil (Português do Brasil)
+* Russian (Русский)
+* Spanish (Español)
+* Swedish (Svenska)
+* Turkish (Türkçe)
 
 **Development of this plugin is done [on GitHub](https://github.com/Miller-Media/expire-passwords). Pull requests welcome. Please see [issues reported](https://github.com/Miller-Media/expire-passwords/issues) there before going to the plugin forum.**
 
@@ -51,6 +62,13 @@ Or use any capability that only your desired role has. This is useful when custo
 3. Users are not permitted to use the same password two times in a row during reset.
 
 == Changelog ==
+
+= 1.3.9 =
+* Added translations for Russian, Polish, Dutch, Turkish, and Swedish
+* Updated localization section in readme
+
+= 1.3.8 =
+* Added Chinese Simplified (zh_CN) translation
 
 = 1.3.7 =
 * Added Japanese (ja) translation
